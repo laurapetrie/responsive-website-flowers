@@ -4,13 +4,21 @@
   --secondary-color: #ed2647;
 }
 
-h1 {
+body {
   font-family: var(--branding-font-family);
+}
+
+h1 {
+  font-size: 60px;
 }
 
 #navbarNav {
   justify-content: end;
   padding: 0 50px;
+}
+
+.navbar {
+  padding-top: 0;
 }
 
 .navigation {
@@ -19,8 +27,31 @@ h1 {
 
 .nav-item {
   padding: 0 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color);
 }
 
 .logo-image {
   width: 200px;
+}
+
+.heading {
+  margin-top: 250px;
+}
+
+.flower-quote {
+  margin-top: 100px;
+}
+
+.quote-text {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.author {
+  font-size: 18px;
 }

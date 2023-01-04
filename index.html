@@ -33,12 +33,11 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
       <div class="container-fluid navigation">
-        <a class="navbar-brand" href="#"
-          ><img
-            src="images/logo-transparent-background.png"
-            alt="flower folio logo"
-            class="logo-image"
-        /></a>
+        <img
+          src="images/logo-transparent-background.png"
+          alt="flower folio logo"
+          class="logo-image navbar-brand"
+        />
         <button
           class="navbar-toggler"
           type="button"
@@ -53,7 +52,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Flower Profiles</a>
@@ -65,13 +64,24 @@
         </div>
       </div>
     </nav>
-
-    <h1>For the love of flowers...</h1>
-    <p>
-      “I know a bank where the wild thyme blows, Where oxlips and the nodding
-      violet grows, Quite over-canopied with luscious woodbine, With sweet
-      musk-roses and with eglantine.” -- William Shakespeare, A Midsummer
-      Night's Dream
-    </p>
+    <div class="container">
+      <div class="row heading">
+        <div class="col">
+          <h1>For the love of flowers...</h1>
+        </div>
+      </div>
+      <div class="row flower-quote">
+        <div class="col-6 offset-md-6 justify-content-end">
+          <p class="quote-text">
+            “I know a bank where the wild thyme blows, where oxlips and the
+            nodding violet grows, quite over-canopied with luscious woodbine,
+            with sweet musk-roses and with eglantine.”
+          </p>
+          <p class="author">
+            -- William Shakespeare, A Midsummer Night's Dream
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
