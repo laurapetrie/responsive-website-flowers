@@ -1,1 +1,26 @@
+:root {
+  --branding-font-family: "Raleway", sans-serif;
+  --primary-color: #ff908b;
+  --secondary-color: #ed2647;
+}
 
+h1 {
+  font-family: var(--branding-font-family);
+}
+
+#navbarNav {
+  justify-content: end;
+  padding: 0 50px;
+}
+
+.navigation {
+  background-color: var(--primary-color);
+}
+
+.nav-item {
+  padding: 0 50px;
+}
+
+.logo-image {
+  width: 200px;
+}
