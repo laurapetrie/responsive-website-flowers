@@ -2,7 +2,7 @@
   --branding-font-family: "Raleway", sans-serif;
   --primary-color: #ff908b;
   --secondary-color: #ed2647;
-  --tertiary-color: #fbb8b5;
+  --tertiary-color: #f9d8d6;
 }
 
 body {
@@ -13,14 +13,13 @@ body {
 h1 {
   font-size: 60px;
   font-weight: bold;
-  color: var(--tertiary-color);
+  color: var(--secondary-color);
 }
 
 footer {
   text-align: center;
   background-color: var(--primary-color);
-  position: fixed;
-  bottom: 0;
+
   width: 100%;
   height: 60px;
 }
@@ -52,15 +51,19 @@ footer {
   width: 200px;
 }
 
+.container {
+  margin-top: 100px;
+  background-color: var(--tertiary-color);
+  opacity: 0.8;
+}
 .heading {
   margin-top: 250px;
+  padding: 30px;
 }
 
 .flower-quote {
-  margin-top: 100px;
-  background-color: #f9d8d6;
+  margin-bottom: 100px;
 }
-
 .quote-text {
   font-weight: 400;
   font-style: italic;
@@ -72,17 +75,17 @@ footer {
 
 .btn {
   padding: 15px 30px;
-  background-color: var(--primary-color);
+  background-color: #ff7a74;
   color: var(--secondary-color);
   border: var(--primary-color);
   line-height: 1;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: bold;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .btn:hover {
-  background-color: #ff7a74;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
 }
 
