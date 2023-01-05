@@ -19,7 +19,8 @@ h1 {
 footer {
   text-align: center;
   background-color: var(--primary-color);
-
+  position: fixed;
+  bottom: 0;
   width: 100%;
   height: 60px;
 }
@@ -53,11 +54,12 @@ footer {
 
 .container {
   margin-top: 100px;
+  padding: 0 50px;
   background-color: var(--tertiary-color);
   opacity: 0.8;
 }
 .heading {
-  margin-top: 250px;
+  margin-top: 180px;
   padding: 30px;
 }
 
@@ -75,17 +77,18 @@ footer {
 
 .btn {
   padding: 15px 30px;
-  background-color: #ff7a74;
+  background-color: var(--primary-color);
   color: var(--secondary-color);
-  border: var(--primary-color);
+  border: #ff7a74;
   line-height: 1;
   border-radius: 4px;
   font-weight: bold;
+  font-size: 18px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .btn:hover {
-  background-color: var(--primary-color);
+  background-color: #ff7a74;
   color: var(--secondary-color);
 }
 
@@ -99,4 +102,13 @@ footer {
   color: var(--secondary-color);
   font-size: 30px;
   padding: 15px 20px;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  .heading {
+    padding: 20px 0 0 0;
+  }
 }
