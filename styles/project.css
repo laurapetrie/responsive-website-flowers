@@ -7,14 +7,13 @@
 
 body {
   font-family: var(--branding-font-family);
-  background-image: url("/images/bg-image.jpg");
-  background-size: cover;
+  background: url("/images/bg-image.jpg");
 }
 
 h1 {
   font-size: 60px;
   font-weight: bold;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 footer {
@@ -32,7 +31,7 @@ footer {
 }
 
 .navbar {
-  padding-top: 0;
+  padding: 0;
 }
 
 .navigation {
@@ -59,6 +58,7 @@ footer {
 
 .flower-quote {
   margin-top: 100px;
+  background-color: #f9d8d6;
 }
 
 .quote-text {
