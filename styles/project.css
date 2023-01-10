@@ -3,11 +3,16 @@
   --primary-color: #ff908b;
   --secondary-color: #ed2647;
   --tertiary-color: #f9d8d6;
+  --flower-background: url("/images/bg-image.jpg");
 }
 
 body {
   font-family: var(--branding-font-family);
-  background: url("/images/bg-image.jpg");
+  background: var(--tertiary-color);
+}
+
+#homepage-background {
+  background: var(--flower-background);
 }
 
 h1 {
@@ -50,7 +55,7 @@ h1 {
   width: 200px;
 }
 
-/* Hero - main content */
+/* Homepage - main content */
 
 .main-content {
   margin-top: 100px;
