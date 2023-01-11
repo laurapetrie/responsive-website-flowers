@@ -98,6 +98,31 @@ h1 {
   color: var(--secondary-color);
 }
 
+/* Flower profile page */
+
+h2 {
+  margin-top: 180px;
+  color: var(--secondary-color);
+  font-size: 48px;
+  padding: 0 200px;
+}
+
+.contact-container {
+  padding: 0 200px;
+}
+
+.contact-page-email {
+  font-size: 24px;
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contact-page-social-icons {
+  font-size: 32px;
+  padding: 0 15px 0 0;
+  color: var(--secondary-color);
+}
+
 /* Footer */
 
 footer {
@@ -132,6 +157,11 @@ footer {
 @media (max-width: 768px) {
   h1 {
     font-size: 40px;
+  }
+
+  h2,
+  .contact-container {
+    padding: 0 20px;
   }
   .heading {
     padding: 20px 0 0 0;
