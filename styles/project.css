@@ -93,12 +93,43 @@ h1 {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.btn:hover {
-  background-color: #ff7a74;
-  color: var(--secondary-color);
+.btn:hover,
+.btn:active {
+  background-color: #ff7a74 !important;
+  color: var(--secondary-color) !important;
+  transition: all 100ms ease-in-out;
 }
 
 /* Flower profile page */
+
+h3 {
+  color: var(--secondary-color);
+}
+
+.flower-profile-container {
+  margin: 200px 0px 200px 150px;
+}
+
+.flower-content {
+  padding: 0;
+}
+
+.flower-content p {
+  text-align: justify;
+}
+.flower-profile-btn {
+  padding: 12px 24px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border: #ff7a74;
+  line-height: 1;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+/* Contact page */
 
 h2 {
   margin-top: 180px;
@@ -144,6 +175,7 @@ footer {
 
 .footer-links a:hover {
   color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .social-icons a {
