@@ -61,8 +61,9 @@ h1 {
   margin-top: 100px;
   padding: 0 50px;
   background-color: var(--tertiary-color);
-  opacity: 0.8;
+  opacity: 0.9;
 }
+
 .heading {
   margin-top: 180px;
   padding: 30px;
@@ -73,12 +74,14 @@ h1 {
 }
 
 .quote-text {
-  font-weight: 400;
+  font-weight: 500;
+  font-size: 18px;
   font-style: italic;
 }
 
 .quote-author {
   font-size: 18px;
+  font-weight: 500;
 }
 
 .btn {
@@ -168,7 +171,6 @@ footer {
 .footer-links,
 .footer-links a {
   color: black;
-  opacity: 0.9;
   font-size: 18px;
   text-decoration: none;
 }
