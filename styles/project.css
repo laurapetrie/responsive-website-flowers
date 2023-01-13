@@ -11,14 +11,14 @@ body {
   background: var(--tertiary-color);
 }
 
-#homepage-background {
-  background: var(--flower-background);
-}
-
 h1 {
   font-size: 60px;
   font-weight: bold;
   color: var(--secondary-color);
+}
+
+#homepage-background {
+  background: var(--flower-background);
 }
 
 /* Navigation header */
@@ -68,7 +68,7 @@ h1 {
   padding: 30px;
 }
 
-.flower-quote {
+.quote-container {
   margin-bottom: 100px;
 }
 
@@ -77,7 +77,7 @@ h1 {
   font-style: italic;
 }
 
-.author {
+.quote-author {
   font-size: 18px;
 }
 
@@ -107,14 +107,14 @@ h3 {
 }
 
 .flower-profile-container {
-  margin: 200px 0px 200px 150px;
+  margin: 200px auto;
 }
 
-.flower-content {
-  padding: 0;
+.flower-text {
+  padding-left: 30px;
 }
 
-.flower-content p {
+.flower-text p {
   text-align: justify;
 }
 .flower-profile-btn {
@@ -195,8 +195,28 @@ footer {
   .contact-container {
     padding: 0 20px;
   }
+
+  h3 {
+    font-size: 18px;
+  }
+
   .heading {
     padding: 20px 0 0 0;
+  }
+
+  .logo-image {
+    width: 120px;
+  }
+
+  .flower-profile-container {
+    padding: 0 30px;
+    margin: 120px auto;
+  }
+
+  .flower-text {
+    font-size: 14px;
+    margin: 20px auto 0px;
+    padding: 18px 12px;
   }
 
   .footer {
