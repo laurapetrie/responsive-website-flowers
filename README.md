@@ -9,7 +9,7 @@ Project link: https://laurapetrie-responsive-website.netlify.app/
 ## Features
 
 - Responsive design, built to respond to smaller screen sizes.
-- Button links to the other pages and external Wikipedia articles.
+- Button links to each page and external Wikipedia articles for further information.
 
 ## Contributing
 
